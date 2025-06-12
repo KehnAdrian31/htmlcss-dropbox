@@ -9,46 +9,49 @@ body {
 }
 
 header {
-  max-width: 100%;
-  padding: 10px 0px;
-  display: flex;
+  top: 0;
+  color: black;
+  padding: 15px 20px;
+  z-index: 1000;
 }
 
 .container {
-  display: flex;
-  align-items: content;
-}
-
-.logo-small {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.left-part ul {
-  display: flex;
-  flex-direction: row;
-  margin-top: 5px;
-  margin-right: 1500px;
-
+  width: 100%;
+  padding: 15px 0;
 }
 
 ul {
-  list-style: none;
-}
-
-header ul li {
-  margin: 0 15px;
-}
-
-.right-part ul {
   display: flex;
-  flex-direction: row;
+  list-style: none;
+  gap: 20px;
+}
+
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-logo {
+  margin-right: 30px;
+}
+
+.left-part {
+  width: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right-part {
+  width: 900px;
+  display: flex;
   justify-content: flex-end;
-  margin-top: 5px;
+  align-items: center;
 }
 
 .bg-blue-icon {
-  background-color: rgb(58, 111, 255);
+  background-color: #0061FE;
   color: white;
-
+  padding: 5px 10px;
 }
