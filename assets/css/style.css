@@ -63,6 +63,7 @@ ul {
   background-color:
     #B4D0E6;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
 
 .context-container {
@@ -71,7 +72,7 @@ ul {
   padding-top: 90px;
 }
 
-h1 {
+.context-container h1 {
   font-size: 100px;
 }
 
@@ -93,4 +94,18 @@ h1 {
 
 .right img {
   width: 1200px;
+}
+
+.transparent-hr {
+  opacity: 0.1;
+}
+
+/*Piano container*/
+.piano-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.second-title {
+  padding: 100px;
 }
