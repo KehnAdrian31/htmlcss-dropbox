@@ -109,3 +109,10 @@ ul {
 .second-title {
   padding: 100px;
 }
+
+.piano {
+  flex: 30%;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+}
