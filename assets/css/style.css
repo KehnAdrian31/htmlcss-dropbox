@@ -28,7 +28,7 @@ header {
   padding: 15px 0;
 }
 
-ul {
+.top-header ul {
   display: flex;
   list-style: none;
   gap: 20px;
@@ -121,14 +121,32 @@ ul {
   opacity: 0.1;
 }
 
-/*Piano container*/
+/*pricing container*/
+.pricing {
+  background-color: white;
+  padding: 4rem 2rem;
+}
+
 .piano-container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 2rem;
 }
 
 .second-title {
-  padding: 100px;
+  font-size: larger;
+  padding-bottom: 2rem;
+}
+
+.billing-toggle {
+  padding-bottom: 2rem;
+}
+
+.piani {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .piano {
@@ -136,4 +154,9 @@ ul {
   border: 1px solid #ddd;
   display: flex;
   flex-direction: column;
+  padding: 2rem;
+}
+
+ul {
+  list-style: none;
 }
