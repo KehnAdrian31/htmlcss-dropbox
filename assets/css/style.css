@@ -174,15 +174,19 @@ header {
 
 ul {
   list-style: none;
-  margin-top: 1rem;
+  margin-top: 1rem 0;
 }
 
 .piano ul li {
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 .prova {
-  margin: 2rem;
+  margin: 2rem 0;
+}
+
+.piano .alternative {
+  margin-bottom: 2rem;
 }
 
 /* Enterprise */
