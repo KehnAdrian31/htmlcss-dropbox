@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 header {
@@ -130,7 +130,7 @@ header {
 .piano-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .second-title {
@@ -147,6 +147,7 @@ header {
   justify-content: space-between;
   gap: 2rem;
   flex-wrap: wrap;
+  height: 800px;
 }
 
 .piano {
@@ -154,9 +155,34 @@ header {
   border: 1px solid #ddd;
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 0 2rem;
 }
+
+.plan-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.piano .field {
+  font-size: 25px;
+  margin: 1rem;
+}
+
+
 
 ul {
   list-style: none;
+  margin-top: 1rem;
 }
+
+.piano ul li {
+  margin: 1rem;
+}
+
+.prova {
+  margin: 2rem;
+}
+
+/* Enterprise */
